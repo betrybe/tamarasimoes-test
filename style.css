@@ -42,6 +42,7 @@
   cursor: pointer;
   margin: 0;
   padding: 5px;
+  color: white;
 }
 
 .cart {
@@ -54,4 +55,19 @@
   flex-basis: 1;
   font-size: 16pt;
   text-align: center;
+  padding: 5px;
+}
+
+.empty-cart {
+  background-color: green;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.empty-cart:hover {
+  background-color: rgba(0, 128, 0, 0.145);
+  color: black;
+  border: 0.5px solid green;
 }
